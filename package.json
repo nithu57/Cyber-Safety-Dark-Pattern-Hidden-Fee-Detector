@@ -1,0 +1,18 @@
+{
+  "name": "darkguard-workspace",
+  "version": "1.0.0",
+  "description": "DarkGuard - Cyber-Safety Dark Pattern & Hidden Fee Detector",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "keywords": ["dark-patterns", "cybersecurity", "consumer-protection", "detector"],
+  "author": "DarkGuard Team",
+  "license": "ISC"
+}
